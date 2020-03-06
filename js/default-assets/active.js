@@ -4,16 +4,6 @@
   var poca_window = $(window);
 
   // *******************************
-  // :: 1.0 Preloader Active Code
-  // *******************************
-
-  poca_window.on('load', function() {
-    $('#preloader').fadeOut('1000', function() {
-      $(this).remove();
-    });
-  });
-
-  // *******************************
   // :: 2.0 ClassyNav Active Code
   // *******************************
 

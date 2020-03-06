@@ -13,7 +13,6 @@ Last Update: Dec 14, 2018
 + body
  - 01.0 Reboot CSS
  - 02.0 Spacing CSS
- - 03.0 Preloader CSS
  - 04.0 Heading CSS
  - 05.0 Backtotop CSS
  - 06.0 Buttons CSS
@@ -239,29 +238,6 @@ ul {
 .section-padding-80-0 {
   padding-top: 80px;
   padding-bottom: 0; }
-
-/* :: 3.0 Preloader CSS */
-#preloader {
-  position: fixed;
-  width: 100%;
-  height: 100%;
-  z-index: 99999;
-  top: 0;
-  left: 0;
-  background-color: #f4f4f4;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center; }
-  #preloader .preloader-thumbnail {
-    max-width: 50px;
-    -webkit-animation: pocarotate linear 1s infinite;
-    animation: pocarotate linear 1s infinite; }
 
 @-webkit-keyframes pocarotate {
   0% {
